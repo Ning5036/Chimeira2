@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 奇美RA 病人安全工作坊</title>
+    <!-- 載入 Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 設定中文字體以確保排版美觀與可讀性 */
+        body {
+            font-family: 'Inter', 'Noto Sans TC', 'Microsoft YaHei', sans-serif;
+            background-color: #fffbeb; /* 極淺的奶油黃色背景 */
+        }
+        /* 主題色：活潑的橘黃色調 */
+        .color-primary {
+            background-color: #f97316; /* 橙色 600 */
+        }
+        .color-secondary {
+            background-color: #fcd34d; /* 琥珀色 300 */
+        }
+        .text-primary {
+            color: #f97316;
+        }
+        /* 提升字體清晰度和柔和度 */
+        .card-content {
+            line-height: 1.8;
+        }
+        .shadow-soft {
+            box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.1), 0 4px 6px -2px rgba(249, 115, 22, 0.05);
+        }
+    </style>
+</head>
+<body class="min-h-screen antialiased">
+
+    <!-- 主容器 -->
+    <div class="max-w-6xl mx-auto p-4 sm:p-8 lg:p-12">
+
+        <!-- 頂部標題區塊 -->
+        <header class="text-center py-12 mb-8 rounded-3xl color-primary shadow-xl shadow-orange-500/30">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-wide mb-2">
+                2025 ChiMeiRA Patient Safety Workshop
+            </h1>
+            <h2 class="text-xl sm:text-2xl lg:text-3xl font-light text-amber-200 mt-4">
+                <span class="font-bold">Speak Up! Decode, Discuss, and Defuse Safety Risks</span>
+            </h2>
+            <p class="text-base sm:text-lg text-amber-100 mt-2 italic">
+                一場關於錯誤、信任與學習的醫療歷險
+            </p>
+        </header>
+
+        <!-- 基本資訊區塊 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 text-center">
+            <div class="bg-white p-6 rounded-2xl shadow-lg border-b-4 border-amber-500">
+                <p class="text-xl font-semibold text-gray-700 mb-1">活動日期與時間</p>
+                <p class="text-3xl font-bold text-primary">
+                    2025年11月16日 (日)
+                </p>
+                <p class="text-2xl font-bold text-gray-800 mt-1">
+                    13:30 - 14:40
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-lg border-b-4 border-primary">
+                <p class="text-xl font-semibold text-gray-700 mb-1">活動地點</p>
+                <p class="text-3xl font-bold text-primary">
+                    奇美博物館
+                </p>
+                <p class="text-2xl font-bold text-gray-800 mt-1">
+                    豐收廳
+                </p>
+            </div>
+        </div>
+
+        <!-- 活動目的區塊 -->
+        <section class="mb-16">
+            <h3 class="text-4xl font-extrabold text-gray-800 border-l-8 border-primary pl-4 mb-6">
+                <span class="text-primary">活動</span>意涵與目的
+            </h3>
+            <div class="bg-white p-8 rounded-3xl shadow-soft border-t-8 border-primary/50">
+                <ul class="space-y-4 text-lg text-gray-700 card-content list-none p-0">
+                    <li class="flex items-start">
+                        <span class="text-2xl text-primary font-bold mr-3 mt-1">&#10003;</span>
+                        <div class="flex-1">
+                            <span class="font-bold">沉浸式體驗：</span>以「闖關、大家來找碴的方式」親身體驗醫療系統中錯誤的連鎖效應，從做中學。
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-2xl text-primary font-bold mr-3 mt-1">&#10003;</span>
+                        <div class="flex-1">
+                            <span class="font-bold">概念強化：</span>深度理解「通報、系統思維、公正文化、病人家屬參與」四大核心精神。
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-2xl text-primary font-bold mr-3 mt-1">&#10003;</span>
+                        <div class="flex-1">
+                            <span class="font-bold">文化促進：</span>促進跨專業團隊的溝通、深度反思與學習文化，共同提升醫療安全。
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 活動流程區塊 -->
+        <section class="mb-16">
+            <h3 class="text-4xl font-extrabold text-gray-800 border-l-8 border-primary pl-4 mb-8">
+                <span class="text-primary">活動</span>流程總覽
+            </h3>
+
+            <!-- 流程卡片容器 -->
+            <div class="space-y-6">
+
+                <!-- 步驟 1: Opening (5 mins) -->
+                <div class="flex flex-col sm:flex-row bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 border-l-8 border-amber-300">
+                    <div class="w-full sm:w-1/6 color-primary flex items-center justify-center p-3 text-white">
+                        <p class="text-2xl font-bold">13:30<br>|<br>13:35</p>
+                    </div>
+                    <div class="w-full sm:w-5/6 p-5 card-content">
+                        <h4 class="text-2xl font-bold text-gray-800 mb-1">暖場破冰與說明 (5分鐘)</h4>
+                        <p class="text-lg text-gray-600">分組抽籤、規則說明與暖場互動，讓團隊迅速進入狀態。</p>
+                    </div>
+                </div>
+
+                <!-- 步驟 2: Mission 1 (20 mins) -->
+                <div class="flex flex-col sm:flex-row bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 border-l-8 border-primary">
+                    <div class="w-full sm:w-1/6 color-primary flex items-center justify-center p-3 text-white">
+                        <p class="text-2xl font-bold">13:35<br>|<br>13:55</p>
+                    </div>
+                    <div class="w-full sm:w-5/6 p-5 card-content">
+                        <h4 class="text-2xl font-bold text-primary mb-1">
+                            Mission 1: Mayhem Room Adventure
+                        </h4>
+                        <h5 class="text-xl font-semibold text-gray-800 mb-2">
+                            Can You Save Mrs. Lin? (20分鐘)
+                        </h5>
+                        <p class="text-lg text-gray-600">
+                            <span class="font-semibold">內容概要：</span>反轉角色實境模擬，在混亂的病房場景中「發現系統陷阱」。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 步驟 3: Mission 2 (20 mins) -->
+                <div class="flex flex-col sm:flex-row bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 border-l-8 border-primary">
+                    <div class="w-full sm:w-1/6 color-primary flex items-center justify-center p-3 text-white">
+                        <p class="text-2xl font-bold">13:55<br>|<br>14:15</p>
+                    </div>
+                    <div class="w-full sm:w-5/6 p-5 card-content">
+                        <h4 class="text-2xl font-bold text-primary mb-1">
+                            Mission 2: Decoding and Discussing the Root
+                        </h4>
+                        <h5 class="text-xl font-semibold text-gray-800 mb-2">
+                            根因解碼與策略討論 (20分鐘)
+                        </h5>
+                        <p class="text-lg text-gray-600">
+                            <span class="font-semibold">內容概要：</span>模擬訪談與RCA工具應用，找出系統的潛在根因與改善策略。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 步驟 4: Mission 3 (20 mins) -->
+                <div class="flex flex-col sm:flex-row bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 border-l-8 border-primary">
+                    <div class="w-full sm:w-1/6 color-primary flex items中心 justify-center p-3 text-white">
+                        <p class="text-2xl font-bold">14:15<br>|<br>14:35</p>
+                    </div>
+                    <div class="w-full sm:w-5/6 p-5 card-content">
+                        <h4 class="text-2xl font-bold text-primary mb-1">
+                            Mission 3: Mirror Room Reflection
+                        </h4>
+                        <h5 class="text-xl font-semibold text-gray-800 mb-2">
+                            團體反思與發表 (20分鐘)
+                        </h5>
+                        <p class="text-lg text-gray-600">
+                            <span class="font-semibold">內容概要：</span>團體共同發表關於「錯誤、信任與學習」的反思，凝聚公正文化共識。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 步驟 5: Closing (5 mins) -->
+                <div class="flex flex-col sm:flex-row bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 border-l-8 border-amber-300">
+                    <div class="w-full sm:w-1/6 color-primary flex items-center justify-center p-3 text-white">
+                        <p class="text-2xl font-bold">14:35<br>|<br>14:40</p>
+                    </div>
+                    <div class="w-full sm:w-5/6 p-5 card-content">
+                        <h4 class="text-2xl font-bold text-gray-800 mb-1">工作坊總結 (5分鐘)</h4>
+                        <p class="text-lg text-gray-600">公布系統陷阱清單，主持人進行總結語，深化學習效果。</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 結尾行動呼籲區塊 (Call to Action) -->
+        <footer class="text-center pt-8 pb-12 mt-12 border-t-2 border-amber-400">
+            <h3 class="text-3xl font-bold text-gray-800 mb-4">期待您的參與！！</h3>
+            <p class="text-xl text-gray-600 mb-4">
+                透過親身參與，讓我們一起解碼、討論並化解潛在的安全風險。
+            </p>
+            <p class="text-xl font-semibold text-primary">
+                Speak Up, Make It Safe.
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
